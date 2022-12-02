@@ -1,0 +1,526 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.11f1c2 (2c7757f00bfe) revision 2914135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 65341 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityProject/SG(1)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50040
+Successfully changed project path to: D:/UnityProject/SG(1)
+D:/UnityProject/SG(1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 61.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1c2 (2c7757f00bfe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/SG(1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24348 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005207 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (483ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (71ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006666 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\SG(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\SG(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3497 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (400.4 KB). Loaded Objects now: 3970.
+Memory consumption went from 139.9 MB to 139.5 MB.
+Total: 2.222800 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.117900 ms MarkObjects: 1.771400 ms  DeleteObjects: 0.129500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 771958.440050 seconds.
+  path: Assets/AudioRecordPic
+  artifactKey: Guid(480eab57fe1f2664ba5a8fda9826536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioRecordPic using Guid(480eab57fe1f2664ba5a8fda9826536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889cb3edd12941b254c91e0ef0d3664c') in 0.009077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.470112 seconds.
+  path: Assets/AudioRecordPic/bg.jpg
+  artifactKey: Guid(90d466fb7b189a84ebc651a2c7f4d365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AudioRecordPic/bg.jpg using Guid(90d466fb7b189a84ebc651a2c7f4d365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f708b3f7856da50f7ec4384c89b22b') in 0.046673 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005060 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\SG(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\SG(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (803ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (367.2 KB). Loaded Objects now: 3994.
+Memory consumption went from 138.1 MB to 137.7 MB.
+Total: 2.255900 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.118900 ms MarkObjects: 1.820900 ms  DeleteObjects: 0.107500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 829.255468 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square BLUE.png
+  artifactKey: Guid(7996a02f8968c9442851044f5e27aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square BLUE.png using Guid(7996a02f8968c9442851044f5e27aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997f2cbd7c3863df18bad54484719b4') in 0.122581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square PINK.png
+  artifactKey: Guid(8acbec0f337f7d2419f4c6963d416d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square PINK.png using Guid(8acbec0f337f7d2419f4c6963d416d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c844313d3dc2bbcda150f1cdb4744408') in 0.037305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square PURPLE.png
+  artifactKey: Guid(db5180a0cbf244c40b31846847cfa87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square PURPLE.png using Guid(db5180a0cbf244c40b31846847cfa87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f806d45311c90979bc2681d9daed48') in 0.036852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square YELLOW ORANGE.png
+  artifactKey: Guid(30fbbc98c60334740916ca6715dc028e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square YELLOW ORANGE.png using Guid(30fbbc98c60334740916ca6715dc028e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e202e9d73c421428494d2fc149f07fc5') in 0.039645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square YELLOW.png
+  artifactKey: Guid(60ad09d6e230643438197f9a2d135ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square YELLOW.png using Guid(60ad09d6e230643438197f9a2d135ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7679a4b9852a46f4ed5b9866f6e047') in 0.041108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square DARK.png
+  artifactKey: Guid(c9b6f7902c4ace54f8029ccfd1927130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square DARK.png using Guid(c9b6f7902c4ace54f8029ccfd1927130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4c51ef7d5105481591702fcab9cf7e') in 0.037989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square YELLOW GREEN.png
+  artifactKey: Guid(95b93c3275a208d41b6805e5826352c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square YELLOW GREEN.png using Guid(95b93c3275a208d41b6805e5826352c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45719261b82041119f3b8a87ab2c73b') in 0.036927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square LIGHT PURPLE.png
+  artifactKey: Guid(71c75086b9dbd374ab0fac74293996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/Dark Theme Square LIGHT PURPLE.png using Guid(71c75086b9dbd374ab0fac74293996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8928536e261eecb8199b3947d0879425') in 0.037799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/PINK PURPLE.png
+  artifactKey: Guid(f1d6cc2e2fa7c3848b200b607069928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme Square Panels/PINK PURPLE.png using Guid(f1d6cc2e2fa7c3848b200b607069928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b06c9d705ef999c0c1442698fcc7afa') in 0.036831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.986576 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square CYAN.png
+  artifactKey: Guid(111e2f6a50a93b747ba075592140eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square CYAN.png using Guid(111e2f6a50a93b747ba075592140eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5884248515af2e6e3d8302d3a4e816') in 0.263562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square RED.png
+  artifactKey: Guid(73a72d28370ad07439bec722c15f07c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square RED.png using Guid(73a72d28370ad07439bec722c15f07c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cb14e55d48fe36161935a5973f0800') in 0.048675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square GREY.png
+  artifactKey: Guid(e9bc3096996de08469060ae6b6a91c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square GREY.png using Guid(e9bc3096996de08469060ae6b6a91c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843bca302dbb45af8d1287fe1bb1547c') in 0.038976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square LIGHT GREY.png
+  artifactKey: Guid(1eac414d8b7592246a4d9245146aab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square LIGHT GREY.png using Guid(1eac414d8b7592246a4d9245146aab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053e08f941d40fd702cb4e91f17d09bb') in 0.040037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square DARK.png
+  artifactKey: Guid(bd9270b3e08ba4e489e6e6592e01daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square DARK.png using Guid(bd9270b3e08ba4e489e6e6592e01daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567cd1c3befadf706d08107279dee194') in 0.071216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square GREEN.png
+  artifactKey: Guid(43bc7e5c52f4b60489937703c7ca6b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square GREEN.png using Guid(43bc7e5c52f4b60489937703c7ca6b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708172284965ae33c8aee43f45d737b1') in 0.045069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.298192 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style BLUE.png
+  artifactKey: Guid(5a63508e250246143b1f27dd5f07d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style BLUE.png using Guid(5a63508e250246143b1f27dd5f07d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9488b07b20f13b76a86f2371d89d6532') in 0.045350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style PINK.png
+  artifactKey: Guid(1706fdbadf9de8940b2e69a6b5fbaa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style PINK.png using Guid(1706fdbadf9de8940b2e69a6b5fbaa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f3dc8e25aaf4d86038bd3091cafe28') in 0.037989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style CYAN.png
+  artifactKey: Guid(611316cd9e8f1314ea111248400c03df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style CYAN.png using Guid(611316cd9e8f1314ea111248400c03df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86560b20edd6b0f8c4725cd1f3c39d96') in 0.040855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style GREY.png
+  artifactKey: Guid(eb10744dfe640ff4fb02f48a07fe07c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style GREY.png using Guid(eb10744dfe640ff4fb02f48a07fe07c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0072a998dec65ed19466b785ff62f0') in 0.039450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style YELLOW.png
+  artifactKey: Guid(d78b789a86caee049aca1d83af8d1143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style YELLOW.png using Guid(d78b789a86caee049aca1d83af8d1143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9bb70ac05a39faec7ddbe3f886841') in 0.045035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style LIGHT GREY.png
+  artifactKey: Guid(c1d76eaf0b377db4fb39b62b100979c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style LIGHT GREY.png using Guid(c1d76eaf0b377db4fb39b62b100979c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d3b62f2333716e4d9304a407652a30') in 0.041984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.978807 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 3.png
+  artifactKey: Guid(ac4b09799be290e4fa4d6ddc2ca2f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 3.png using Guid(ac4b09799be290e4fa4d6ddc2ca2f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb8f42a136dd0350c7a64edb43ccba2') in 0.021997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 15.png
+  artifactKey: Guid(c3a73564be323434884b83e5d56815de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 15.png using Guid(c3a73564be323434884b83e5d56815de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9210c0b3f53768f0d61f456804f7ade') in 0.058736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 12.png
+  artifactKey: Guid(8d9b54d0d4049a84b8c0a6f8357d464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 12.png using Guid(8d9b54d0d4049a84b8c0a6f8357d464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca43c4b90faf76184594f6aa71b199a') in 0.030208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 8.png
+  artifactKey: Guid(f325da3606bf70e49af7e4d1be09e613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 8.png using Guid(f325da3606bf70e49af7e4d1be09e613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae4e2d2ef600008200b860335e12ef8') in 0.037128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 13.png
+  artifactKey: Guid(a1eb1376c2fe1754bbf1cefa45975856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 13.png using Guid(a1eb1376c2fe1754bbf1cefa45975856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51485487867c455e4a7d9f148af4b21') in 0.014240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.538684 seconds.
+  path: Assets/Mini UI/Buttons/Dark Theme Border Buttons/256Px  Round DarkBorder/Big Round Button BLUE.png
+  artifactKey: Guid(7f8060aa2b3d90442bbfd555fabcfaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Dark Theme Border Buttons/256Px  Round DarkBorder/Big Round Button BLUE.png using Guid(7f8060aa2b3d90442bbfd555fabcfaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece888ea4de77a61d4dff23692b3f68a') in 0.033096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/Buttons/Light Theme Border Buttons/256Px Round LightBorder/Big Round Button BLUE.png
+  artifactKey: Guid(bc56b237e0e661948b01a82f5a1eed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Light Theme Border Buttons/256Px Round LightBorder/Big Round Button BLUE.png using Guid(bc56b237e0e661948b01a82f5a1eed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a09770540c0d9c4c52f65b0d07d2d2') in 0.029976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.651955 seconds.
+  path: Assets/Mini UI/UI Icons/Bat.png
+  artifactKey: Guid(51f5d513524ebf64bb6119a1e5909ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bat.png using Guid(51f5d513524ebf64bb6119a1e5909ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b98d3e27226b02562dbd7a75cc360e1') in 0.012866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248173 seconds.
+  path: Assets/Mini UI/Icons/Banana.png
+  artifactKey: Guid(08c313f08a8dad84aaca4908f530ca91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Banana.png using Guid(08c313f08a8dad84aaca4908f530ca91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cdf079686cea9893ee4144b3da2a6e') in 0.025785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.256497 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 20.png
+  artifactKey: Guid(0a03c6cc3ae1e6c45acacd0395d5db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 20.png using Guid(0a03c6cc3ae1e6c45acacd0395d5db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0faf503fc618e91b1bc8316df0120559') in 0.016421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 14.png
+  artifactKey: Guid(d7ce711b868ab784e8b1c345d8303309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 14.png using Guid(d7ce711b868ab784e8b1c345d8303309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e912412fc9f024e11e7f12cd054c66') in 0.015905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.175063 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 9.png
+  artifactKey: Guid(46a76b6b95eb36949835f8f2412bd4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 9.png using Guid(46a76b6b95eb36949835f8f2412bd4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7f0235f0ab11fda983a78de55a9bbb') in 0.011179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.291252 seconds.
+  path: Assets/Mini UI/UI Icons/Badge Type 4.png
+  artifactKey: Guid(18c78c2ae8508c745b50115153941ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Badge Type 4.png using Guid(18c78c2ae8508c745b50115153941ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d38ca3ecb775abe09868a66f98d5fe') in 0.013165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.886993 seconds.
+  path: Assets/Mini UI/UI Icons/Badge.png
+  artifactKey: Guid(154e0e047b21f33498abca5997b84dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Badge.png using Guid(154e0e047b21f33498abca5997b84dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163e0eca51ab3476e6d6d0903ab451f6') in 0.015532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Icons/Badge Red.png
+  artifactKey: Guid(c4d7b52be666b7d459ff40ba354bc893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Badge Red.png using Guid(c4d7b52be666b7d459ff40ba354bc893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479b52d1ae068e9367ccaaa9d5a0afde') in 0.023190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/UI Icons/Arrow 3B.png
+  artifactKey: Guid(ee37f082213980143b5e517a2e293a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Arrow 3B.png using Guid(ee37f082213980143b5e517a2e293a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010b62b062d3b082a8baf58d52a34f2c') in 0.012970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button Pressed/384 Px Square InnerBorder Pressed CYAN.png
+  artifactKey: Guid(e549c6fc06862254dbe39d55657b6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button Pressed/384 Px Square InnerBorder Pressed CYAN.png using Guid(e549c6fc06862254dbe39d55657b6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ade9dfbbace56ef8210ab85cd3037f') in 0.020478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/2 bar signal.png
+  artifactKey: Guid(c275ce186608e284da3260d1678b4671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/2 bar signal.png using Guid(c275ce186608e284da3260d1678b4671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96939cd0af9e6aead8e0bfbe01a71b1c') in 0.013036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed BLUE PURPLE.png
+  artifactKey: Guid(82d541e119bee2d4ea6baf6cb3512600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed BLUE PURPLE.png using Guid(82d541e119bee2d4ea6baf6cb3512600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670ef6d10d751911cf956cac80fd7002') in 0.016908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/UI Icons/Audio Box.png
+  artifactKey: Guid(1624ad5ba69c0794f89c3592b4fd1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Audio Box.png using Guid(1624ad5ba69c0794f89c3592b4fd1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a466c1b2dbb3fc58d00bb1ee7a42c856') in 0.012296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button/384 Px Square InnerBorder LIGHT GREY.png
+  artifactKey: Guid(31990d865504b77488af5dc6fd876212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button/384 Px Square InnerBorder LIGHT GREY.png using Guid(31990d865504b77488af5dc6fd876212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ccc3f98c0c0bd88a89eb4a80ffb91c') in 0.019525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Add Friends.png
+  artifactKey: Guid(fda0aec6da6427748a2d2086ddcd937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Add Friends.png using Guid(fda0aec6da6427748a2d2086ddcd937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c0403005bdbb6e051ee8976c9d929f') in 0.013435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed GREEN.png
+  artifactKey: Guid(346ca4926a40cef4f994ad5fbd59bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed GREEN.png using Guid(346ca4926a40cef4f994ad5fbd59bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ffb4394ffaadd7373f78b6fb5c3069') in 0.016818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Icons/Badge Blue.png
+  artifactKey: Guid(348d90283aa616f4385ee6d9647a0c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Badge Blue.png using Guid(348d90283aa616f4385ee6d9647a0c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb58ec167c60a5bf810a11000fe9255d') in 0.020206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/UI Icons/Badge Type 2.png
+  artifactKey: Guid(afefbfa07d3bc884fbbd45722c08cff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Badge Type 2.png using Guid(afefbfa07d3bc884fbbd45722c08cff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad4acbd435767dbac6750da2049bd70') in 0.013076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/UI Icons/Add Heart.png
+  artifactKey: Guid(9d3e14b99fc054c4988ca0ab4b9403b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Add Heart.png using Guid(9d3e14b99fc054c4988ca0ab4b9403b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4b229486d0e44d239bfe740a066898') in 0.022086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain PINK.png
+  artifactKey: Guid(e879ec604c27cad40b7891b5f024c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain PINK.png using Guid(e879ec604c27cad40b7891b5f024c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7e270dc9b983dc63ed7b2591947801') in 0.017119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button Pressed/384 Px Square InnerBorder Pressed BLUE PURPLE.png
+  artifactKey: Guid(08b037cfd4abb714db99c4faec3f565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button Pressed/384 Px Square InnerBorder Pressed BLUE PURPLE.png using Guid(08b037cfd4abb714db99c4faec3f565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb23c6876396418f797af170a6a6284') in 0.016896 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

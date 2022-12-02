@@ -1,0 +1,1466 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.11f1c2 (2c7757f00bfe) revision 2914135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 65341 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityProject/SG(1)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50040
+Successfully changed project path to: D:/UnityProject/SG(1)
+D:/UnityProject/SG(1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 70.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1c2 (2c7757f00bfe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/SG(1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24348 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003893 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.472 seconds
+Domain Reload Profiling:
+	ReloadAssembly (472ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\SG(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\SG(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3515 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (400.4 KB). Loaded Objects now: 3988.
+Memory consumption went from 140.7 MB to 140.3 MB.
+Total: 2.854900 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.407300 ms  DeleteObjects: 0.127700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 772867.626827 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels
+  artifactKey: Guid(fe3e2f6343df2764ba2854e9ab08b0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels using Guid(fe3e2f6343df2764ba2854e9ab08b0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956b272b1f024acb8255ccab6fa01c20') in 0.008285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038433 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square BLUE PURPLE.png
+  artifactKey: Guid(a3b7248087652a04589315900f90071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square BLUE PURPLE.png using Guid(a3b7248087652a04589315900f90071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0801db08703b015731a20970a8b1c4c') in 0.279248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square YELLOW ORANGE.png
+  artifactKey: Guid(2219cd2b6e6ae9c429b362355612bb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square YELLOW ORANGE.png using Guid(2219cd2b6e6ae9c429b362355612bb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01a3e1a0752c138665c8516417e4585') in 0.039474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square LIGHT PURPLE.png
+  artifactKey: Guid(63968863f6d600947a378ecef5eb28cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square LIGHT PURPLE.png using Guid(63968863f6d600947a378ecef5eb28cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5830b8b5973c3ef324f687591153189') in 0.038661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square PINK PURPLE.png
+  artifactKey: Guid(3963e4074980bdd44ace609417b01703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square PINK PURPLE.png using Guid(3963e4074980bdd44ace609417b01703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effd823a05b6ad722bda07eb1b29c8e4') in 0.073692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square PINK.png
+  artifactKey: Guid(7a1e04a5732e6e64b97db00d93c314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square PINK.png using Guid(7a1e04a5732e6e64b97db00d93c314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334f36df29bdc46a292c7ef069270baa') in 0.038981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square ORANGE.png
+  artifactKey: Guid(b74faf283537fb04492ef4fc01f81455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme Square Panels/Light Theme Square ORANGE.png using Guid(b74faf283537fb04492ef4fc01f81455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adef0c1a1f6ff4248985fad18150efe') in 0.037809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.256147 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels
+  artifactKey: Guid(b8e5ee6baa4357f4482c4a1a1653c7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels using Guid(b8e5ee6baa4357f4482c4a1a1653c7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09406bcbb06e3c7fbc356275ed146ab5') in 0.004408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029792 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Panels WHITE.png
+  artifactKey: Guid(552d5871986d8f84b90004b90b2e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Panels WHITE.png using Guid(552d5871986d8f84b90004b90b2e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6323a0107f658f060935ef3d3ffc4e1d') in 0.040702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style GREEN.png
+  artifactKey: Guid(ca40abe1457b6f349a3cc0d23c38092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style GREEN.png using Guid(ca40abe1457b6f349a3cc0d23c38092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc316e1b4acab617065e0de036c5b6ff') in 0.044241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style ORANGE.png
+  artifactKey: Guid(75ca14d2c7f37a74a9da1ce0ed6d93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style ORANGE.png using Guid(75ca14d2c7f37a74a9da1ce0ed6d93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9eb1e372ef0a49a2750bef658a8b15') in 0.041909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style DARK.png
+  artifactKey: Guid(9791a88ea281c9d45b909643f91396e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style DARK.png using Guid(9791a88ea281c9d45b909643f91396e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0eeb67b6da167f05a038e7312348b5') in 0.038503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style PINK PURPLE.png
+  artifactKey: Guid(85324c27be91a8d48881bbef59e5ca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style PINK PURPLE.png using Guid(85324c27be91a8d48881bbef59e5ca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202ee46e5565386e85eb8d7f66ca937c') in 0.043480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style LIGHT DARK.png
+  artifactKey: Guid(a460b3e363c969b42978c7fbafdb28b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Light Theme RoundEdge Panels/Light Theme RoundEdge Style LIGHT DARK.png using Guid(a460b3e363c969b42978c7fbafdb28b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0524f74bd29ae0bf67648920133ff00a') in 0.044160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.223988 seconds.
+  path: Assets/Mini UI/Affinity Designer Files
+  artifactKey: Guid(fa2ce773cc05b5f47a412f3a16abe611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Affinity Designer Files using Guid(fa2ce773cc05b5f47a412f3a16abe611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4babf93227904ebd61d5f560eeb1fa') in 0.004220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.186542 seconds.
+  path: Assets/Mini UI/Affinity Designer Files/Checkbox Background.afdesign
+  artifactKey: Guid(633df0ed8f4e1614f92abe60786c6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Affinity Designer Files/Checkbox Background.afdesign using Guid(633df0ed8f4e1614f92abe60786c6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ab26704b03984a18f2fc8e53ca2509') in 0.042346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.343335 seconds.
+  path: Assets/Mini UI/Animation
+  artifactKey: Guid(f8eaa38391997b44da52fd32edd97b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Animation using Guid(f8eaa38391997b44da52fd32edd97b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee698882d45a145f58673158e13a65e') in 0.004539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.108506 seconds.
+  path: Assets/Mini UI/Avatars
+  artifactKey: Guid(ca4ddab6105e0cd44ac8a0988990cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars using Guid(ca4ddab6105e0cd44ac8a0988990cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eba9bf322bb9dca630f5b8d4cd094b') in 0.004192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043322 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 1.png
+  artifactKey: Guid(077396d02555fd74b96724e252a38b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 1.png using Guid(077396d02555fd74b96724e252a38b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd82667621422f0175fac53bb05f21b') in 0.021421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 9.png
+  artifactKey: Guid(5ba9237aa1f36fd488d12639f42ad733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 9.png using Guid(5ba9237aa1f36fd488d12639f42ad733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8415e35010fb080156ffa47b12318b67') in 0.031829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 4.png
+  artifactKey: Guid(bac9262fb40114c4ca818297abdb914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 4.png using Guid(bac9262fb40114c4ca818297abdb914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400285ed40fe09853a52ec30791a1a6a') in 0.064923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 10.png
+  artifactKey: Guid(2a8fd5192da4afd4d82c44a2ac096ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 10.png using Guid(2a8fd5192da4afd4d82c44a2ac096ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5afbf50b66b7722fe71d7f2b7d2e2c9') in 0.026633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mini UI/Avatars/Avatar 11.png
+  artifactKey: Guid(3124c2dfbafe6f14eb0ffa830106b52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Avatars/Avatar 11.png using Guid(3124c2dfbafe6f14eb0ffa830106b52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54be6c3aa06962d8af974d7b2bf5ef9') in 0.013709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.299565 seconds.
+  path: Assets/Mini UI/Buttons
+  artifactKey: Guid(586624f8528a56840893e71b7a06cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons using Guid(586624f8528a56840893e71b7a06cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaccadb835470fdd6c06ecfec367c3e1') in 0.004393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.110199 seconds.
+  path: Assets/Mini UI/Buttons/Light Theme Border Buttons
+  artifactKey: Guid(60f9dbaa57140c440850ccbe533b191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Light Theme Border Buttons using Guid(60f9dbaa57140c440850ccbe533b191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0af6a26163b666c609f68828007e9b') in 0.004750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.159106 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons
+  artifactKey: Guid(a2dffd83d5d524b48aeff8b1fc13256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons using Guid(a2dffd83d5d524b48aeff8b1fc13256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11728d9a624232dc169f7a1aee6cc422') in 0.004620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.949838 seconds.
+  path: Assets/Mini UI/Icons/Bell.png
+  artifactKey: Guid(2ecea7c66ee96454cb6a76fce4b8eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Bell.png using Guid(2ecea7c66ee96454cb6a76fce4b8eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d425f099fefee30609a7ebdf4de3b8') in 0.030688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Buttons/Dark Theme Border Buttons/256Px  Round DarkBorder/Big Round Button CYAN.png
+  artifactKey: Guid(ec6e7937f1cb8b148a28a2e894ffee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Dark Theme Border Buttons/256Px  Round DarkBorder/Big Round Button CYAN.png using Guid(ec6e7937f1cb8b148a28a2e894ffee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c885f52fca8581f7165ef830ac339310') in 0.019783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Buttons/Light Theme Border Buttons/256Px Round LightBorder/Big Round Button BLUE PURPLE.png
+  artifactKey: Guid(69fc4411f48f17544a7f9f79ef923785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Light Theme Border Buttons/256Px Round LightBorder/Big Round Button BLUE PURPLE.png using Guid(69fc4411f48f17544a7f9f79ef923785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeed03e3a665c1fa53e6be78fce9020') in 0.020277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.600743 seconds.
+  path: Assets/Mini UI/UI Icons/Battery Full.png
+  artifactKey: Guid(3ff5ef5bb4f620048a5690310c1c7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Battery Full.png using Guid(3ff5ef5bb4f620048a5690310c1c7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c75ee87a006cb58152ca141a0c88389') in 0.011907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017025 seconds.
+  path: Assets/Mini UI/UI Icons/Battery 1 Bar.png
+  artifactKey: Guid(c81ddba24c16fa746b4f5713a258386c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Battery 1 Bar.png using Guid(c81ddba24c16fa746b4f5713a258386c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f1ddb3d0f8c6040c300e4761ef7ef4') in 0.012898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Batteries.png
+  artifactKey: Guid(e721bc6e5a0eac641bd832894d7f26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Batteries.png using Guid(e721bc6e5a0eac641bd832894d7f26aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761ce78bd93e18ad7e4158a16744792b') in 0.013180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.227662 seconds.
+  path: Assets/Mini UI/UI Icons/Barbel.png
+  artifactKey: Guid(d7c3215d1f2905545bbb691fbf2ae55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Barbel.png using Guid(d7c3215d1f2905545bbb691fbf2ae55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b0b9723730c263cc46aa5befb047f9') in 0.014393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032694 seconds.
+  path: Assets/Mini UI/UI Icons/Bag Of Flour.png
+  artifactKey: Guid(d9a122f311379104083c6a8a7b7e9b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag Of Flour.png using Guid(d9a122f311379104083c6a8a7b7e9b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4458e81cb886cc1867950b1b32338a') in 0.015283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174922 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 24.png
+  artifactKey: Guid(17540474366f2394a8aca826dbb95d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 24.png using Guid(17540474366f2394a8aca826dbb95d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f966329f0448ecd5f40583397ae8b5') in 0.012157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034414 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 17.png
+  artifactKey: Guid(56bc3d5093f12ce428a5f6fbbd350f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 17.png using Guid(56bc3d5093f12ce428a5f6fbbd350f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f255fad9211c17f55fc42ae6f770d1') in 0.016658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 21.png
+  artifactKey: Guid(19ba8c4a5b3232145a44f4ced72867d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 21.png using Guid(19ba8c4a5b3232145a44f4ced72867d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3525de4c8466947bd0d13c94522473c') in 0.012174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 16.png
+  artifactKey: Guid(ca7b45a4aab4ca043b4661e11cae63b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 16.png using Guid(ca7b45a4aab4ca043b4661e11cae63b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566390dff02942fc81c423bb38e47787') in 0.017208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144217 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 11.png
+  artifactKey: Guid(253d163f966a2e5478fb6e62c7b967b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 11.png using Guid(253d163f966a2e5478fb6e62c7b967b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b072677d5f85ea33543ad03c51bf0ad') in 0.013040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 10.png
+  artifactKey: Guid(ad916874fd135a5488299d7ffaf09279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 10.png using Guid(ad916874fd135a5488299d7ffaf09279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb213370153446a70e9684ac1117e571') in 0.014528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016563 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 7.png
+  artifactKey: Guid(afb4e043ae7d71e489fb1f9debfb4070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 7.png using Guid(afb4e043ae7d71e489fb1f9debfb4070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d892997caf8d20a63d0d6a0f375c4b6') in 0.012343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195446 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 5.png
+  artifactKey: Guid(33896a6071bfc8848a13bcf65bdd3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 5.png using Guid(33896a6071bfc8848a13bcf65bdd3aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8556ce9513e5b6f01d50e28b0b53299c') in 0.013804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Bag 4.png
+  artifactKey: Guid(9199d8cdfc1350548a8fe44abbeaa84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag 4.png using Guid(9199d8cdfc1350548a8fe44abbeaa84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401ebc6c39594afd513f6094d77d2696') in 0.012163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019554 seconds.
+  path: Assets/Mini UI/UI Icons/Bag.png
+  artifactKey: Guid(af2c850960b00b849979d1e9a2c0c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bag.png using Guid(af2c850960b00b849979d1e9a2c0c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f6a7645a89105c0be904d75df3f76f') in 0.015138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.888136 seconds.
+  path: Assets/Mini UI/Icons/Axe.png
+  artifactKey: Guid(c906ee63c46ad204da6a9fca01cffbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Axe.png using Guid(c906ee63c46ad204da6a9fca01cffbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24364fe2f9a214429ff275d09897e55') in 0.020758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mini UI/UI Icons/Alarm 2.png
+  artifactKey: Guid(379e8d936e92d7f40906493082ce732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Alarm 2.png using Guid(379e8d936e92d7f40906493082ce732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705293885e3efe2ef92622ce5e92aaf7') in 0.017776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/UI Icons/Badge removed.png
+  artifactKey: Guid(be1fb4dfdb8281e409113bb33b041240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Badge removed.png using Guid(be1fb4dfdb8281e409113bb33b041240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e843a69cf1291e0644fe9ce16ebc60') in 0.014330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/UI Icons/Apple.png
+  artifactKey: Guid(2a406965f4422be468f2715f45f70cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Apple.png using Guid(2a406965f4422be468f2715f45f70cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deb201669cbff4c15f2bd5abf198623') in 0.013225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button/384 Px Square InnerBorder LIGHT DARK.png
+  artifactKey: Guid(3bf333ff0c72cdb46a3dd084af0dfba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button/384 Px Square InnerBorder LIGHT DARK.png using Guid(3bf333ff0c72cdb46a3dd084af0dfba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e45ac8d71073ba20f55be4c4391f2a8') in 0.020542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mini UI/UI Icons/Badge Add.png
+  artifactKey: Guid(ae460c895c4d88048a83a09edc4cc8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Badge Add.png using Guid(ae460c895c4d88048a83a09edc4cc8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab70a1c95fd378011e5d6bf8c3157e7') in 0.013586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed CYAN.png
+  artifactKey: Guid(e65078e3671a76f4fbb540f39b6f219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed CYAN.png using Guid(e65078e3671a76f4fbb540f39b6f219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3217d45abb9a14b95eea276d4c8b0cfc') in 0.016658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button/384 Px Square InnerBorder PINK.png
+  artifactKey: Guid(8d7376a7481704046855039a5b49af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Inner Border Buttons/384Px Square InnerBorder Button/384 Px Square InnerBorder PINK.png using Guid(8d7376a7481704046855039a5b49af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0c0461633447a1131913ec9d2bb413') in 0.020220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain ORANGE.png
+  artifactKey: Guid(595aa7d952abd4f468228a266b2045f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain ORANGE.png using Guid(595aa7d952abd4f468228a266b2045f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033884fd54c547b9500f56f7bb25a6d2') in 0.021144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Icons/Apple.png
+  artifactKey: Guid(9af4ebaf6abd57748a4b9a0a077a9a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Apple.png using Guid(9af4ebaf6abd57748a4b9a0a077a9a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d199e315ff56f27b270f053acc9179') in 0.017200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed BLUE.png
+  artifactKey: Guid(aadb11f00834bec419a820223a22d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button Pressed/384 Px Square Plain Pressed BLUE.png using Guid(aadb11f00834bec419a820223a22d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c31ea719ee27952ecf5e11cbfbd302') in 0.022259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/UI Icons/1 bar signal.png
+  artifactKey: Guid(0800590e5cb14b94a908e4abf4d0e991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/1 bar signal.png using Guid(0800590e5cb14b94a908e4abf4d0e991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a550e1eb6dd2de9a62d8e605c3028acb') in 0.011952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/UI Icons/Album.png
+  artifactKey: Guid(225759003dc750846a137f93a29cb76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Album.png using Guid(225759003dc750846a137f93a29cb76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fb3a0c20a6d4f8e98a4bed31fd6a44') in 0.018065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain PINK PURPLE.png
+  artifactKey: Guid(6496f4a3c53f8a94998fc468aa74a889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain PINK PURPLE.png using Guid(6496f4a3c53f8a94998fc468aa74a889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a36a07a2fba38141e787f620a6b689') in 0.016494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain LIGHT PURPLE.png
+  artifactKey: Guid(ab7740b9c56986143853c81d077eba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Buttons/Plain Buttons/384Px Square Plain Button/384 Px Square Plain LIGHT PURPLE.png using Guid(ab7740b9c56986143853c81d077eba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c31a68fa33595fff03f1bf75408f2fe') in 0.016031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.183978 seconds.
+  path: Assets/Mini UI/Fonts/MINI.ttf
+  artifactKey: Guid(62bd45aab04506f4fbb4e9feeb3cbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Fonts/MINI.ttf using Guid(62bd45aab04506f4fbb4e9feeb3cbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c9a013e0718fb243a0a9712053d66e') in 0.053414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.875622 seconds.
+  path: Assets/Mini UI/Info Bar
+  artifactKey: Guid(c996b7b196be8ee4890f29eb4307d9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar using Guid(c996b7b196be8ee4890f29eb4307d9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fa945d1112febd1b127ef8829da0a8') in 0.004152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035836 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Blue Purple.png
+  artifactKey: Guid(a8f41c297e0c5664d99527b17cd9eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Blue Purple.png using Guid(a8f41c297e0c5664d99527b17cd9eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eca68cc1ad185a9ae803754d7cae0f1') in 0.030162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Green.png
+  artifactKey: Guid(d1d5da98460ac5f44890ee72e1cada50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Green.png using Guid(d1d5da98460ac5f44890ee72e1cada50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a4391fd0fa407191dc75eb3f0374fe') in 0.034539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Pink Purple.png
+  artifactKey: Guid(970cef7923705c5478fde4c7acfc4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Pink Purple.png using Guid(970cef7923705c5478fde4c7acfc4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432de37366c284b21d5ac00ed2f64b7') in 0.015783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Skyblue.png
+  artifactKey: Guid(ddacd0f41082c8547bfb3603d42548a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Skyblue.png using Guid(ddacd0f41082c8547bfb3603d42548a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19052e9c8b2b379a445f890c1408fd57') in 0.015922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Light Dark.png
+  artifactKey: Guid(4949a369d7df37341bd734ebe60b24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Light Dark.png using Guid(4949a369d7df37341bd734ebe60b24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a78a6cf0a5d905cd42710d45f4e1504') in 0.016729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Light Purple.png
+  artifactKey: Guid(ab7cc181368e8b74d9502caad7f1df67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Light Purple.png using Guid(ab7cc181368e8b74d9502caad7f1df67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f436b3752a7318d28efe93c3e84abc') in 0.015016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Red.png
+  artifactKey: Guid(e06b7968cacc0d540a3eb5e7cc8be7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Red.png using Guid(e06b7968cacc0d540a3eb5e7cc8be7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e4453878457b06161ba0afaaea4bdb') in 0.018660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Pink.png
+  artifactKey: Guid(a147ce55b29195b4fac898d64905366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Pink.png using Guid(a147ce55b29195b4fac898d64905366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1637cd45406b28b6f55255a0af78c2') in 0.016278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide White.png
+  artifactKey: Guid(adcb25d46f74173418bf475a442bb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide White.png using Guid(adcb25d46f74173418bf475a442bb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b21ee9fcab6af4fe917275a1232eefb') in 0.014144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/Info Bar/Round Wide Cyan.png
+  artifactKey: Guid(b672dd292bddf9a48ad5c0b3b61be1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Info Bar/Round Wide Cyan.png using Guid(b672dd292bddf9a48ad5c0b3b61be1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6576c8088fe183c6c6ea00ed4795eb24') in 0.017065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.457879 seconds.
+  path: Assets/Mini UI/Fonts
+  artifactKey: Guid(03122671dddeb1c4ca62c314a1a58ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Fonts using Guid(03122671dddeb1c4ca62c314a1a58ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115ecc0d19448d9075cd18fd1ec0bc94') in 0.004497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.835629 seconds.
+  path: Assets/Mini UI/Icons
+  artifactKey: Guid(bd6482e80322d2e4c83df6ee6ee39955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons using Guid(bd6482e80322d2e4c83df6ee6ee39955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698e6ceb68f1c1e4726a720ceb302c06') in 0.184830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mini UI/Icons/Crystal Red 1.png
+  artifactKey: Guid(94ddc6c5ebc03074c904ef69b8e262ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Crystal Red 1.png using Guid(94ddc6c5ebc03074c904ef69b8e262ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29b846dc62a07ed11319a86a1a91768') in 0.350682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mini UI/Icons/Fish.png
+  artifactKey: Guid(22a1cbdd128d433448745dc14378d56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Fish.png using Guid(22a1cbdd128d433448745dc14378d56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fee0e2abec4f14e7f4f38bd79b99857') in 0.020708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/Icons/Blue Chat.png
+  artifactKey: Guid(e775a54a96af6374692d9b17ffc8b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Blue Chat.png using Guid(e775a54a96af6374692d9b17ffc8b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74200ce392064dfd8bc08af1a55e844f') in 0.018425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Icons/Green Book.png
+  artifactKey: Guid(a8429c1f5db102c489f2162b2044f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Green Book.png using Guid(a8429c1f5db102c489f2162b2044f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71df0b6e58706c82288f28d6acb5d4ac') in 0.017077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Icons/Jar Green.png
+  artifactKey: Guid(700184f740b697b47a718939ce0dc3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Jar Green.png using Guid(700184f740b697b47a718939ce0dc3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73df0ac87c169066bc48217242c1fcd') in 0.020321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mini UI/Icons/Grapes.png
+  artifactKey: Guid(ea872f7a12ac89e4dbf6041adad84ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Grapes.png using Guid(ea872f7a12ac89e4dbf6041adad84ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d934a91ef4b47e514fbbd0419fff688') in 0.018954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Icons/Level Up.png
+  artifactKey: Guid(2ce2adf580cfd764aa54f3e45914a968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Level Up.png using Guid(2ce2adf580cfd764aa54f3e45914a968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b087238ed60ba406afb1d4342bee9e') in 0.023659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Icons/Gift.png
+  artifactKey: Guid(d3df1d3f2e757cc428390d8eb5b8fa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Gift.png using Guid(d3df1d3f2e757cc428390d8eb5b8fa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6da3c4ba5ef011201fddb8e851ae9d') in 0.024526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Icons/Chest 1.png
+  artifactKey: Guid(658241f43b77ed34587c9a8308db2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Chest 1.png using Guid(658241f43b77ed34587c9a8308db2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab4754c018c4f85fdc20765336fdc33') in 0.021513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Icons/Gold Ticket.png
+  artifactKey: Guid(c7119a42791fd7e4f932d295e0284cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Gold Ticket.png using Guid(c7119a42791fd7e4f932d295e0284cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62357e6fa2fc3f101f283d32a2eb12c7') in 0.017097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Icons/Down Button.png
+  artifactKey: Guid(0c02c35ed4556d34a92e025a23b3783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Down Button.png using Guid(0c02c35ed4556d34a92e025a23b3783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6794f16e979cbd434ab4faa41049969') in 0.017506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mini UI/Icons/Left Arrow Yellow.png
+  artifactKey: Guid(c59d983e97237fe438f0f6c7cfde1823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Left Arrow Yellow.png using Guid(c59d983e97237fe438f0f6c7cfde1823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de07d9c14963c51be3a25170f22ea7db') in 0.022702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mini UI/Icons/Hammer.png
+  artifactKey: Guid(5a7cd4c671fa1ba4d8a55d5c098c6835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Hammer.png using Guid(5a7cd4c671fa1ba4d8a55d5c098c6835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b1904736e3ffaed60d24f313adde69') in 0.021369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/Icons/Bronze Badge.png
+  artifactKey: Guid(35b09fa9cec2e8e479c4050a183355ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Bronze Badge.png using Guid(35b09fa9cec2e8e479c4050a183355ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5b0d5fc5ee229f978f2897c06e35d7') in 0.018365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Icons/Fireworks.png
+  artifactKey: Guid(0b34e8723b7382b429bd107afccfa2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Fireworks.png using Guid(0b34e8723b7382b429bd107afccfa2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6bbc2a043aaaad5120e2b488a2d840') in 0.018587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/Icons/Calendar.png
+  artifactKey: Guid(7eb8a68668622934a90376c110a7586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Calendar.png using Guid(7eb8a68668622934a90376c110a7586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33439d781764ac5f7577a393cfba67e6') in 0.017551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Icons/Cash.png
+  artifactKey: Guid(1f7b72afa14de664b84bdef4680cb0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Cash.png using Guid(1f7b72afa14de664b84bdef4680cb0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eee3a9eaa33c20af69ebbcb6a3dfb9') in 0.019098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mini UI/Icons/Crystal Green 1.png
+  artifactKey: Guid(8a4fede97d577b049b5f16474970ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Crystal Green 1.png using Guid(8a4fede97d577b049b5f16474970ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a85e9e4a8a93957a0a48b5b5e191c1') in 0.019196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Icons/Green Check.png
+  artifactKey: Guid(f669932234f582249b978fd12126b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Green Check.png using Guid(f669932234f582249b978fd12126b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c31472cf76c2addf419c6dcb142bcd') in 0.015862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/Icons/Melon Slice.png
+  artifactKey: Guid(af986eead1093bb4585d6cc83bba67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Melon Slice.png using Guid(af986eead1093bb4585d6cc83bba67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4fad0b958a9de64432c0439e39a244') in 0.017306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Icons/Blue Gem.png
+  artifactKey: Guid(1361681d09557f44999f8081a33a67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Blue Gem.png using Guid(1361681d09557f44999f8081a33a67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182bb1de230494fa3d7b7d43d9abd3c6') in 0.017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/Icons/Chest Of Gem.png
+  artifactKey: Guid(1b146e9b555733f42a32b3916158d02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Chest Of Gem.png using Guid(1b146e9b555733f42a32b3916158d02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17112d4f00c401ea8e74682895e14f1a') in 0.027293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/Icons/Crystal Yellow 1.png
+  artifactKey: Guid(95ffb239e532f024081aceac2955d885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Crystal Yellow 1.png using Guid(95ffb239e532f024081aceac2955d885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fc470ddd3fe22a72c994185fa1ad32') in 0.017174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mini UI/Icons/Crown.png
+  artifactKey: Guid(c851dc837a18d4947b4c20fa9f24c598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Crown.png using Guid(c851dc837a18d4947b4c20fa9f24c598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e2bc93fb43127b103f2be41ec6a8b8') in 0.016846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/Icons/Golden Key.png
+  artifactKey: Guid(2f0be1da559e673459fe08bedb1fc3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Golden Key.png using Guid(2f0be1da559e673459fe08bedb1fc3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b407b8d6633c92fbfe722811c7c4e6b') in 0.016960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Icons/Milk.png
+  artifactKey: Guid(3358f10745b6bd840bc7034e893e007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Milk.png using Guid(3358f10745b6bd840bc7034e893e007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1803d723147407efed417303f96cac') in 0.015787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/Icons/Lemon.png
+  artifactKey: Guid(3f9e941fcda48fb4280387f22948c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Lemon.png using Guid(3f9e941fcda48fb4280387f22948c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fca58f8e1f1c4a2a1f173e4a4d16e3') in 0.017199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.173861 seconds.
+  path: Assets/Mini UI/Icons/Orange Slice.png
+  artifactKey: Guid(22bcc1295c90a364e85d679917db5a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Orange Slice.png using Guid(22bcc1295c90a364e85d679917db5a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3f099b26a4cd58bc05a7065222a652') in 0.022988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/Icons/Pile Of Coin.png
+  artifactKey: Guid(2a28af910bbf87141bb3076329df2efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Pile Of Coin.png using Guid(2a28af910bbf87141bb3076329df2efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c5e03e8021997d7e42d91fb216bc23') in 1.003184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Icons/Settings.png
+  artifactKey: Guid(af064fd17228c2846a0dbd6596980659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Settings.png using Guid(af064fd17228c2846a0dbd6596980659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bfb843513e8f65a1f6b0b4495cbd40') in 0.022148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mini UI/Icons/Store 2.png
+  artifactKey: Guid(ff2193a2f376e0446ad332d0c93c94f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Store 2.png using Guid(ff2193a2f376e0446ad332d0c93c94f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543b04d4ec4f719907fbc89ffdbebce5') in 0.046669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Icons/Silver Ticket.png
+  artifactKey: Guid(af14bc5a799d60140a72d576e8ea44fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Silver Ticket.png using Guid(af14bc5a799d60140a72d576e8ea44fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e4f3c1ba549ff7c2c610699a83a38e') in 0.019075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Icons/Silver Badge.png
+  artifactKey: Guid(768af0d93d34cac47b6c45ec3929b9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Silver Badge.png using Guid(768af0d93d34cac47b6c45ec3929b9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f01323b58a96497c702c7e90e000d6') in 0.033130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mini UI/Icons/Speaker.png
+  artifactKey: Guid(a970b9e4cc5b93047a5bcf9930d70c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Speaker.png using Guid(a970b9e4cc5b93047a5bcf9930d70c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee10507f8e39576d8522874b1ed3cdd') in 0.020606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Icons/Rank Up.png
+  artifactKey: Guid(7eca2511436791140b729579e90590f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Rank Up.png using Guid(7eca2511436791140b729579e90590f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1f60d542382bdffa9136ea627d4d20') in 0.025190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/Icons/Pile Of Gem.png
+  artifactKey: Guid(1ebacad5339e94b4597dc1a12c36120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Pile Of Gem.png using Guid(1ebacad5339e94b4597dc1a12c36120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce58971733f9f88cb1b22b6e2bb58f6e') in 0.048759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/Icons/Red Battery.png
+  artifactKey: Guid(df1f4183a35b6f340be66e7b1e963d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Red Battery.png using Guid(df1f4183a35b6f340be66e7b1e963d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0395719d3db9e22ef70cf4374c7b4b4') in 0.024886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mini UI/Icons/Snow Flake.png
+  artifactKey: Guid(5cff62536e16c634f83025f08f3c5eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Snow Flake.png using Guid(5cff62536e16c634f83025f08f3c5eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e5a6a506afe4f444c31cddb9f9c1fb') in 0.021090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Icons/Ranking.png
+  artifactKey: Guid(d562ef9e43894424ca6d9d9c80241817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Ranking.png using Guid(d562ef9e43894424ca6d9d9c80241817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bc1f686b4d2c7cdd605c04ac45aa7c') in 0.017752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.274148 seconds.
+  path: Assets/Mini UI/Icons/Targets.png
+  artifactKey: Guid(b3419fc64da23034a9ce58f3c78c3271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Targets.png using Guid(b3419fc64da23034a9ce58f3c78c3271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457962b980375e868752460626422d91') in 0.018451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/Icons/Trophy 4.png
+  artifactKey: Guid(bbce6bf64687aa44baf22f0985035b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Trophy 4.png using Guid(bbce6bf64687aa44baf22f0985035b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c59c957aa3850fbedac5ecccbd4cb9') in 0.017407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Icons/WaterMelon Slice.png
+  artifactKey: Guid(534afdbba2c6bb242b95053655ebc0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/WaterMelon Slice.png using Guid(534afdbba2c6bb242b95053655ebc0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0157b08f6ea7052e83b2b0c6a8747bad') in 0.017319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Icons/water.png
+  artifactKey: Guid(077e5066976553646a5041adeaa010b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/water.png using Guid(077e5066976553646a5041adeaa010b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1a0d7bc0315c850e8647b7622d3b8d') in 0.016246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/Icons/Trophy 8.png
+  artifactKey: Guid(1c46c3ec99f822143a9ee4acfc713ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Trophy 8.png using Guid(1c46c3ec99f822143a9ee4acfc713ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5203ea6b1e7af21471c52d6d01448bf') in 0.014931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Icons/Trophy 6.png
+  artifactKey: Guid(254ef8480c523954fb927d76d43c32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Trophy 6.png using Guid(254ef8480c523954fb927d76d43c32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bece4f1052ebb5d34bef22a7161eb51') in 0.015690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Icons/Trophy 2.png
+  artifactKey: Guid(287c14236a7975c4d92e0e5e98eafd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Trophy 2.png using Guid(287c14236a7975c4d92e0e5e98eafd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d1755c9da8296e5b9e81c9d3973f3c') in 0.015163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/Icons/Trophy 9.png
+  artifactKey: Guid(e91787ccafc477249be36aacf88b1e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Trophy 9.png using Guid(e91787ccafc477249be36aacf88b1e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418aa27c2c2ce5720bb14b88d14ac8e1') in 0.016296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/Icons/Trophy 1.png
+  artifactKey: Guid(027d0d143ec94894fa9c4327399e21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Trophy 1.png using Guid(027d0d143ec94894fa9c4327399e21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ec85325d96242c2a8b70766ad600a3') in 0.016217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.270901 seconds.
+  path: Assets/Mini UI/Icons/White Dice.png
+  artifactKey: Guid(7697c57b1c9afd14381f457f81d3e200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/White Dice.png using Guid(7697c57b1c9afd14381f457f81d3e200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12af6a51c5e43c32c300038fabb84e24') in 0.020074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Icons/Yellow Gem.png
+  artifactKey: Guid(0baba43cdf3416946a06685d590da837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Icons/Yellow Gem.png using Guid(0baba43cdf3416946a06685d590da837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8826714f938b2ce9979ffaf2e904ce') in 0.184007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.908165 seconds.
+  path: Assets/Mini UI/Others
+  artifactKey: Guid(d3f491e2881916a41a99a47fa6f9888a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others using Guid(d3f491e2881916a41a99a47fa6f9888a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c991515c52d1b6017774d5dbacd76d') in 0.004148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044469 seconds.
+  path: Assets/Mini UI/Others/Circle.png
+  artifactKey: Guid(9eab706166ae46c4f8c59baae8bfee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Circle.png using Guid(9eab706166ae46c4f8c59baae8bfee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4d7115e31a242705226e92e576451d') in 0.016758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Others/Information Background 3.png
+  artifactKey: Guid(18bd8a36de9d02f44a89b06d99977022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Information Background 3.png using Guid(18bd8a36de9d02f44a89b06d99977022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e865c937b603cea601f0861da4872c16') in 0.029185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/Others/Mission Panel Slot Background.png
+  artifactKey: Guid(ad5de4987435e2344806342e9010f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Mission Panel Slot Background.png using Guid(ad5de4987435e2344806342e9010f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3173eeb0c3e3097d1c81046e005747d8') in 0.017173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mini UI/Others/Map Red Dot.png
+  artifactKey: Guid(5b3e65697c1557d4c953d1cde2e377b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Map Red Dot.png using Guid(5b3e65697c1557d4c953d1cde2e377b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf29169aa26e5fd33a3c20f52e9c30c') in 0.012868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/Others/Tittle.png
+  artifactKey: Guid(1df84d49ee2eecb49b28c9120ac8e248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Tittle.png using Guid(1df84d49ee2eecb49b28c9120ac8e248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7107b007e3fe3ccba6f0f2a10e7835d') in 0.064634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Others/Price BG.png
+  artifactKey: Guid(643e537af5d4c204ebf3a3ee991372f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Price BG.png using Guid(643e537af5d4c204ebf3a3ee991372f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c371b910f8c51e1093adb4152c243a34') in 0.018772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/Others/Ranking Place Holder.png
+  artifactKey: Guid(0414ea3b91cfddd4f9db9ff80a3caf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Ranking Place Holder.png using Guid(0414ea3b91cfddd4f9db9ff80a3caf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7184f959b56d59f96d28a5c8969da5') in 0.013857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mini UI/Others/Title.png
+  artifactKey: Guid(742206d0bfb7045468ac6c4cc30d1606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Title.png using Guid(742206d0bfb7045468ac6c4cc30d1606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63fc649d9ac9bbb5fe9d55ab3babb76') in 0.085928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Others/Star Rank.png
+  artifactKey: Guid(4999b647a48e96a49a946c4035eae4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Others/Star Rank.png using Guid(4999b647a48e96a49a946c4035eae4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad10d671ffaab075942037be1d05838') in 0.010326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.124818 seconds.
+  path: Assets/Mini UI/Prefabs/Demo.prefab
+  artifactKey: Guid(16f6f8db51df0b54aa8d643df8224de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Prefabs/Demo.prefab using Guid(16f6f8db51df0b54aa8d643df8224de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eda628c7484e69bb95cc4717d667ea9') in 0.114808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.275216 seconds.
+  path: Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round BLUE PURPLE.prefab
+  artifactKey: Guid(6420ca8f6dc23c548978c8e111f401ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round BLUE PURPLE.prefab using Guid(6420ca8f6dc23c548978c8e111f401ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3243461540c998aa885cde8212b6e5b6') in 0.008743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round PURPLE.prefab
+  artifactKey: Guid(101ab39bc1721864ca4f5e77508835f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round PURPLE.prefab using Guid(101ab39bc1721864ca4f5e77508835f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf46696a85ee4bc68e9ed316ec44ef9') in 0.008025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round PINK.prefab
+  artifactKey: Guid(9126a13a86713e043b89bf03b885d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round PINK.prefab using Guid(9126a13a86713e043b89bf03b885d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6584fef13f26f6a8b466296a0ad09a03') in 0.007504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round YELLOW.prefab
+  artifactKey: Guid(07947dfcd8f24d64abace087f7c338ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round YELLOW.prefab using Guid(07947dfcd8f24d64abace087f7c338ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b872fee541d4b5088091a446ee74d964') in 0.007266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round LIGHT GREY.prefab
+  artifactKey: Guid(65f92dc3a4aeab04c9e795cfd7d97a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round LIGHT GREY.prefab using Guid(65f92dc3a4aeab04c9e795cfd7d97a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310a44913dd992b5b9aa5bff11c32352') in 0.007925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round GREY.prefab
+  artifactKey: Guid(f402b23b7de479f44ba9669f5f1d623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Prefabs/Buttons/Dark Theme Buttons/196Px Dark Border Round/Darkborder Small Round GREY.prefab using Guid(f402b23b7de479f44ba9669f5f1d623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9a722f59ad8f0d6ac450f584095cb0') in 0.007191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.709697 seconds.
+  path: Assets/Mini UI/Profile/Profile Mask.png
+  artifactKey: Guid(4f5e8d9c9a9565a4eb9fbddda3b62e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Profile Mask.png using Guid(4f5e8d9c9a9565a4eb9fbddda3b62e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e5426d5a168c3fa67bb0b506ea409e') in 0.031500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.242977 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 BLUE.png
+  artifactKey: Guid(12fbce1e866aa544a9b9136104601609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 BLUE.png using Guid(12fbce1e866aa544a9b9136104601609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedf51c2ff826fa9e728c8dfece76347') in 0.017906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 DARK.png
+  artifactKey: Guid(de01f54c64759614fa6957de7f197054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 DARK.png using Guid(de01f54c64759614fa6957de7f197054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201420b217fe03021599c1b3fdeb983') in 0.012044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 PINK.png
+  artifactKey: Guid(106054c9df3f6b2428266fa479da8d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 PINK.png using Guid(106054c9df3f6b2428266fa479da8d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de6012d3678d2a16bbf7636d9dd7260') in 0.011150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 YELLOW ORANGE.png
+  artifactKey: Guid(6d2a37467f1e8bb45be6af083c9f65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 YELLOW ORANGE.png using Guid(6d2a37467f1e8bb45be6af083c9f65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d690eaf16a5475f909fa74a778ebe7') in 0.012350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 YELLOW GREEN.png
+  artifactKey: Guid(8848401625989584f8577ca71cb187a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 YELLOW GREEN.png using Guid(8848401625989584f8577ca71cb187a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1938b379b523b4a48fa941f32852070') in 0.012872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 LIGHT PURPLE.png
+  artifactKey: Guid(553895086012d894283d479989b8c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Small/Progress Img 2 LIGHT PURPLE.png using Guid(553895086012d894283d479989b8c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146f2964340a2a20bd423ebbf0fd1bfc') in 0.012464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.902793 seconds.
+  path: Assets/Mini UI/Profile/Level BG/Level BG BLUE.png
+  artifactKey: Guid(525977ffd7095844984eee2ffdf80859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Level BG/Level BG BLUE.png using Guid(525977ffd7095844984eee2ffdf80859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb83f5d33e436cc12eaed63592aef20') in 0.015465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/Profile/Level BG/Level BG PURPLE.png
+  artifactKey: Guid(a3a90584208950e40894092578f31389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Level BG/Level BG PURPLE.png using Guid(a3a90584208950e40894092578f31389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5276eba64faf188a7d6e587a79612d97') in 0.014701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/Profile/Level BG/Level BG PINK.png
+  artifactKey: Guid(3818c1face5e64a4b838e3b18585186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Level BG/Level BG PINK.png using Guid(3818c1face5e64a4b838e3b18585186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a7947400739422825b700a65942103') in 0.019121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/Profile/Level BG/Level BG.png
+  artifactKey: Guid(c37163ff4d90ef2499f2d44b22d2e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Level BG/Level BG.png using Guid(c37163ff4d90ef2499f2d44b22d2e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ef5b5f0bbff28c4e063f2e9fa2d151') in 0.019030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/Profile/Level BG/Level BG ORANGE.png
+  artifactKey: Guid(01b0cad6b5780564cb878ddbe94c7518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Level BG/Level BG ORANGE.png using Guid(01b0cad6b5780564cb878ddbe94c7518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47838a1364a88255be7e56eb5e5d3c5e') in 0.024670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/Profile/Level BG/Level BG LIGHT DARK.png
+  artifactKey: Guid(06665035125157248ad9d192adce24f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Level BG/Level BG LIGHT DARK.png using Guid(06665035125157248ad9d192adce24f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c7b69fe4284a7f10168b4723446753') in 0.014937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.000926 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 BLUE.png
+  artifactKey: Guid(fa0d6e53772e9d145bddadb2d8353cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 BLUE.png using Guid(fa0d6e53772e9d145bddadb2d8353cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec1ade79c5dfd0ab5628d0820622a4f') in 0.021577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 RED.png
+  artifactKey: Guid(0be0c2fbee1f8fa4c8ad41d3aeed3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 RED.png using Guid(0be0c2fbee1f8fa4c8ad41d3aeed3855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8498e1a241417c2f0555f6281ad45db5') in 0.028972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 GREY.png
+  artifactKey: Guid(b0c73b6761c15f94087111a6d805841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 GREY.png using Guid(b0c73b6761c15f94087111a6d805841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e26bbb17a67eb8ebc8eaff978e20f26') in 0.014638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 GREEN.png
+  artifactKey: Guid(92763571890041b40a61189d408663a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 GREEN.png using Guid(92763571890041b40a61189d408663a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430ca509b730e1064bfdf4015c3e1c57') in 0.013866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 PURPLE.png
+  artifactKey: Guid(0f4902e5cbef3274bb31fff20127b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 PURPLE.png using Guid(0f4902e5cbef3274bb31fff20127b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce5864604ef87599962dbe083b70327') in 0.012614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 PINK.png
+  artifactKey: Guid(ba14a6573d5c0684dba2a17f43c0b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/Profile/Progress Bar Big/Progress Img 1 PINK.png using Guid(ba14a6573d5c0684dba2a17f43c0b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c2e537db0158e842de24377a5ddfef') in 0.013073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.562162 seconds.
+  path: Assets/Mini UI/UI Icons/4 bar signal.png
+  artifactKey: Guid(d63314340ad389743af61b3d8fcf8dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/4 bar signal.png using Guid(d63314340ad389743af61b3d8fcf8dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a70b60b7d9e0672597ce45f2629e5a') in 0.030407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Bullet 1.png
+  artifactKey: Guid(2b41bce548518f449a2bb61713dcd401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bullet 1.png using Guid(2b41bce548518f449a2bb61713dcd401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7fcac12f7dcad7c73f09aaea35c309') in 0.036024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mini UI/UI Icons/Building 2.png
+  artifactKey: Guid(e74a05eb329300d42ab359cb3048087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Building 2.png using Guid(e74a05eb329300d42ab359cb3048087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7556807d216c2f0ae9d69a0635c3f891') in 0.036869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/UI Icons/Building 12.png
+  artifactKey: Guid(ed35d3e0ca81fd3468039cfd7abf9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Building 12.png using Guid(ed35d3e0ca81fd3468039cfd7abf9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb070c4d7edbe0a0eb41f942df22923b') in 0.021948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mini UI/UI Icons/Book.png
+  artifactKey: Guid(6efe0c1c363314a448386745af2577cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Book.png using Guid(6efe0c1c363314a448386745af2577cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12a9b7443c1e93b5412dec5cfdcda65') in 0.046154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mini UI/UI Icons/Brightness.png
+  artifactKey: Guid(73d53de5996d9f240a059afc5e184921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Brightness.png using Guid(73d53de5996d9f240a059afc5e184921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ce330449fb20bae9ca6a41fe07ab26') in 0.023896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Bluetooth.png
+  artifactKey: Guid(4cf09ce4db9584b41b0ec8aa213901e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bluetooth.png using Guid(4cf09ce4db9584b41b0ec8aa213901e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e53a9a1629e9e8f8304f5841f74614') in 0.014371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mini UI/UI Icons/Arrow 3F.png
+  artifactKey: Guid(07b1d0b1850f3e3489cc212619733ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Arrow 3F.png using Guid(07b1d0b1850f3e3489cc212619733ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858c0a2ffd87852b15184695c394bdd5') in 0.013387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Arrow 3D.png
+  artifactKey: Guid(a4531868e1570b54fb2cb1424ac3f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Arrow 3D.png using Guid(a4531868e1570b54fb2cb1424ac3f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57fd9ef8da3657af55b252022400494') in 0.014977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/UI Icons/Building 15.png
+  artifactKey: Guid(8f477e4f24cdaff42a25c8f506e4e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Building 15.png using Guid(8f477e4f24cdaff42a25c8f506e4e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985278e28e3633981f693c72c1368c62') in 0.015882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Bottlewine.png
+  artifactKey: Guid(a6ca7387f5bbeab43afe198c4439c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bottlewine.png using Guid(a6ca7387f5bbeab43afe198c4439c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7463d24a3ef62febc9381b1bc851cf73') in 0.014272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Building 9.png
+  artifactKey: Guid(a80dade4c943ddf45af61c10906879f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Building 9.png using Guid(a80dade4c943ddf45af61c10906879f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b9f932ce3968daa39a46c76e433a83') in 0.013150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Building 16.png
+  artifactKey: Guid(ed5890f7985fcf84fb9b0cc4f5d60f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Building 16.png using Guid(ed5890f7985fcf84fb9b0cc4f5d60f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62babc619a85d6064479a6c747193aad') in 0.013251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Bulb.png
+  artifactKey: Guid(b2e15f3e664599a4985dd086489ec341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Bulb.png using Guid(b2e15f3e664599a4985dd086489ec341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94a1ad94663ab71987ffe8ff4d52154') in 0.012277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/UI Icons/Building 18.png
+  artifactKey: Guid(622c9969499a8044b879fcdd723bec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Building 18.png using Guid(622c9969499a8044b879fcdd723bec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de8dd16b9c0efcdc04fd001e31ccdf8') in 0.013058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Arrow 3G.png
+  artifactKey: Guid(61c301b8118760046877449c9523e32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Arrow 3G.png using Guid(61c301b8118760046877449c9523e32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4dbc9df5d9f8d0043e9370100663f9') in 0.012288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.722764 seconds.
+  path: Assets/Mini UI/UI Icons/Cactus.png
+  artifactKey: Guid(2311689678fa7474b94ef8ee807bcddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Cactus.png using Guid(2311689678fa7474b94ef8ee807bcddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f4058854228b30d69020bd46a19428') in 0.013528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Camera.png
+  artifactKey: Guid(58bf3b0fce6c45e49b9ee67345e5dfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Camera.png using Guid(58bf3b0fce6c45e49b9ee67345e5dfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5358864eea68686cb3013b1c9c9d4d1e') in 0.014511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Carot.png
+  artifactKey: Guid(cb3cc04d4c65a0144b0460c32dafa3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Carot.png using Guid(cb3cc04d4c65a0144b0460c32dafa3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12534288b7d2d045f9e09be46013b19b') in 0.016496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/UI Icons/Calculator.png
+  artifactKey: Guid(97b23ecc8ee6bbf41930cc4d7c1b34ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Calculator.png using Guid(97b23ecc8ee6bbf41930cc4d7c1b34ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796f1dfa441f71f018790878f81a96b1') in 0.014761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/UI Icons/Cart.png
+  artifactKey: Guid(084723c2f68e90c40af3977e11b4a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Cart.png using Guid(084723c2f68e90c40af3977e11b4a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a036fe0d08605ed62b849fcfd44dcc04') in 0.014411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/UI Icons/Cassette.png
+  artifactKey: Guid(9d16bcd4bc958d640b9cf1e7090ed792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Cassette.png using Guid(9d16bcd4bc958d640b9cf1e7090ed792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98832818227d24afd8d227ff85358875') in 0.018423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.175726 seconds.
+  path: Assets/Mini UI/UI Icons/Cemetery 2.png
+  artifactKey: Guid(343f1d37c67ba274d84140eee8c5bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Cemetery 2.png using Guid(343f1d37c67ba274d84140eee8c5bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad76dfa7b6b1b09a5fdd9406b376f63') in 0.017089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/UI Icons/Close X.png
+  artifactKey: Guid(fab22ca411fb9404994fe7c272111143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Close X.png using Guid(fab22ca411fb9404994fe7c272111143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e5e10ee6130cf6dd5c8b106f8300f4') in 0.017708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Chime 3.png
+  artifactKey: Guid(880d6c1ecc737dc49993056ac4632594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Chime 3.png using Guid(880d6c1ecc737dc49993056ac4632594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1978102825066c5d85b47d3d252ef505') in 0.021324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Chime 2.png
+  artifactKey: Guid(3be9d3c47d55cc545adfd241e83e0e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Chime 2.png using Guid(3be9d3c47d55cc545adfd241e83e0e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fac184fdca9562795b46ef8a95ef68b') in 0.019883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/UI Icons/Chat Icon.png
+  artifactKey: Guid(7ca238167c10ff147994925ad37a6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Chat Icon.png using Guid(7ca238167c10ff147994925ad37a6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d6a27401aaae272610781c769c845c') in 0.018916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mini UI/UI Icons/Click.png
+  artifactKey: Guid(bf305ee394c2da045a1cf55144ec2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Click.png using Guid(bf305ee394c2da045a1cf55144ec2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75e8320ac2e805cb41d7614c41ae1ca') in 0.018518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mini UI/UI Icons/Close Label.png
+  artifactKey: Guid(e87ed81d58e70954fb4e10cb66552e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Close Label.png using Guid(e87ed81d58e70954fb4e10cb66552e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236560f95b81abfa8ff6c34ff02b8a3a') in 0.017287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Chime.png
+  artifactKey: Guid(4fff0d41dc9e43a42b677fed8b48fc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Chime.png using Guid(4fff0d41dc9e43a42b677fed8b48fc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c6554acd4ddd692e43be88a80d672c') in 0.012618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039935 seconds.
+  path: Assets/Mini UI/UI Icons/Close.png
+  artifactKey: Guid(f9ea82a72402fed44bd57b4d52262252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Close.png using Guid(f9ea82a72402fed44bd57b4d52262252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4983c6ffb1c38f366855645e7c91fb') in 0.013034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Crossing.png
+  artifactKey: Guid(ecef0e971ebbfa346ad2b0afeece16f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Crossing.png using Guid(ecef0e971ebbfa346ad2b0afeece16f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0475b12b2b383ac9437bc900d5105529') in 0.013369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mini UI/UI Icons/Crown 2.png
+  artifactKey: Guid(186a15fe85885a54a9121302ef83022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Crown 2.png using Guid(186a15fe85885a54a9121302ef83022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6599bb528670a16ef95fcb048046488a') in 0.013394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mini UI/UI Icons/Controls.png
+  artifactKey: Guid(bb0264eeb63bab143b6d5f88a8ab1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Controls.png using Guid(bb0264eeb63bab143b6d5f88a8ab1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7560f8743c8d79a3d1282bcdf4f99c') in 0.013316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mini UI/UI Icons/Cloud Download 2.png
+  artifactKey: Guid(ae1341fbc61ff9d4c9a71a19cec2daaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Cloud Download 2.png using Guid(ae1341fbc61ff9d4c9a71a19cec2daaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec0eee21926a304eacaf1b7f153bb97') in 0.011563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Compass.png
+  artifactKey: Guid(dd6011a1bd95ec847843e30955b1327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Compass.png using Guid(dd6011a1bd95ec847843e30955b1327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182ffac3ebf5f5d975edabaeb03f558e') in 0.012693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Cloud Upload.png
+  artifactKey: Guid(06d05789ea267154d824e257758029eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Cloud Upload.png using Guid(06d05789ea267154d824e257758029eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deedf09d18783761b83827365298b779') in 0.011482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini UI/UI Icons/Crown 3.png
+  artifactKey: Guid(e63623229573db342b85bb7431b2a424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Crown 3.png using Guid(e63623229573db342b85bb7431b2a424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11790774d18b37e46303763ce5f4e57') in 0.038036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Clover.png
+  artifactKey: Guid(fe10a63ef2c60bc46a206d2b07ef91d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Clover.png using Guid(fe10a63ef2c60bc46a206d2b07ef91d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25607c10730888dd3381d875727b1bf9') in 0.012672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mini UI/UI Icons/Clover 2.png
+  artifactKey: Guid(5e4455e02fa72ea4db31c2bf62469129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Clover 2.png using Guid(5e4455e02fa72ea4db31c2bf62469129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f70d8b4dec53aba92eaaf50251a98e') in 0.014153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.333863 seconds.
+  path: Assets/Mini UI/UI Icons/Crown.png
+  artifactKey: Guid(c643823abff8dcc4eb6017929014021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Crown.png using Guid(c643823abff8dcc4eb6017929014021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab2ba960722f7a3eb757b139aae7133') in 0.014072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini UI/UI Icons/CUp.png
+  artifactKey: Guid(04f6c9085de1df9469cf52a4d0594d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/CUp.png using Guid(04f6c9085de1df9469cf52a4d0594d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1f7eca7cb49b72ef76cea8d9e9ed13') in 0.046221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mini UI/UI Icons/Diamond 3.png
+  artifactKey: Guid(5fcd57a4d1a1a274f9110e36684e0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Diamond 3.png using Guid(5fcd57a4d1a1a274f9110e36684e0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b1adcfced27a18a67d6e5f7d3d448d') in 0.012256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mini UI/UI Icons/Device Vibration.png
+  artifactKey: Guid(b1a813eff8067504d8a9825d726a308a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Device Vibration.png using Guid(b1a813eff8067504d8a9825d726a308a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3f249d5c0c39b86b3625f2cd235b1e') in 0.027421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini UI/UI Icons/Crystall Ball.png
+  artifactKey: Guid(18ca964eabcfbde4d9ecf706bfe99819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Crystall Ball.png using Guid(18ca964eabcfbde4d9ecf706bfe99819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98587c479bb61521bb08a444471c07b8') in 0.013449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini UI/UI Icons/Cursor.png
+  artifactKey: Guid(998884a20f691de45960cd61df9e2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Cursor.png using Guid(998884a20f691de45960cd61df9e2040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3584af96acbb439217fbc19fd21eef') in 0.028739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331597 seconds.
+  path: Assets/Mini UI/UI Icons/Dice 2E.png
+  artifactKey: Guid(85f7281b8395d4c4f935f4f3fdb84c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Dice 2E.png using Guid(85f7281b8395d4c4f935f4f3fdb84c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e67d8da9214fd233bc969922b570db8') in 0.013027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Down Arrow 1B.png
+  artifactKey: Guid(a88bc6bde2fa53242b5d154d1a07b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Down Arrow 1B.png using Guid(a88bc6bde2fa53242b5d154d1a07b180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032736d99c9c9703442c0e8ce0460b7c') in 0.012300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mini UI/UI Icons/Down Arrow.png
+  artifactKey: Guid(4c6aea3b2c2984246890b36d08ccdcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Down Arrow.png using Guid(4c6aea3b2c2984246890b36d08ccdcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96e3b4066ded9470cc1fae85b319c8d') in 0.016186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Down.png
+  artifactKey: Guid(b3d20a538e554ac47beaf72d48366368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Down.png using Guid(b3d20a538e554ac47beaf72d48366368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfd6105a99f376d1f435dea786e3b6d') in 0.014254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini UI/UI Icons/Donut 2.png
+  artifactKey: Guid(604e5d862161ed94e8be217192b34302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Donut 2.png using Guid(604e5d862161ed94e8be217192b34302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b3efa45d6bcdbfc02e3338d146aa63') in 0.014883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mini UI/UI Icons/Down Arrow 1A.png
+  artifactKey: Guid(ca29d875fb0326f4290f669bb073e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/UI Icons/Down Arrow 1A.png using Guid(ca29d875fb0326f4290f669bb073e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6563e24be0534686959bb4db65c09670') in 0.016801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.519295 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge BLUE.png
+  artifactKey: Guid(bc026922c8fb5bc49b6a71fb5d2f6273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge BLUE.png using Guid(bc026922c8fb5bc49b6a71fb5d2f6273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc9026813c7ed10fc5a74c3baa8c158') in 0.066697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge PURPLE.png
+  artifactKey: Guid(6eb252146d460e446a10c00f526e5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge PURPLE.png using Guid(6eb252146d460e446a10c00f526e5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0840a645d6d756364857064a8c7e7ad5') in 0.078306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge RED.png
+  artifactKey: Guid(cb6832b58f1aab14da2b6843a265865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge RED.png using Guid(cb6832b58f1aab14da2b6843a265865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0568b738a8fabd83c4f53510f51be5b') in 0.062755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge DARK.png
+  artifactKey: Guid(66ef169d7cfa9be419c53014d85f6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge DARK.png using Guid(66ef169d7cfa9be419c53014d85f6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0df2b86eaa8926248a44075f9a5964') in 0.067641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge WHITE.png
+  artifactKey: Guid(f5d63f3061d076d4f8a7c91da048aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge WHITE.png using Guid(f5d63f3061d076d4f8a7c91da048aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce690b0de3cf449930429bdf43840be4') in 0.048161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge ORANGE.png
+  artifactKey: Guid(cf40c20d75b71174ebe001c1fed03130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini UI/9 Splice Panels/Dark Theme RoundEdge Panels/Dark Theme RoundEdge ORANGE.png using Guid(cf40c20d75b71174ebe001c1fed03130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d59ae487c8d38d3a2c307e72b641951') in 0.055705 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
